@@ -65,7 +65,6 @@
 		CA3D8D5F1405E75000C3763F /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = CA3D8D5C1405E75000C3763F /* up.png */; };
 		CA3E547013E530240013C33C /* GroupBuyReport.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3E546F13E530240013C33C /* GroupBuyReport.m */; };
 		CA4E0590147A2D3D007728DB /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA4E058E147A2D3D007728DB /* libGoogleAdMobAds.a */; };
-		CA4E0591147A2D3D007728DB /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = CA4E058F147A2D3D007728DB /* README.txt */; };
 		CA4E0594147A2D4E007728DB /* AdViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E0593147A2D4E007728DB /* AdViewUtils.m */; };
 		CA4E05CC147B5353007728DB /* AdProductTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA4E05CA147B5353007728DB /* AdProductTextCell.m */; };
 		CA4E05CD147B5353007728DB /* AdProductTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA4E05CB147B5353007728DB /* AdProductTextCell.xib */; };
@@ -389,6 +388,7 @@
 		CAB6A706141A6792007E6253 /* TopScoreController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAB6A704141A6792007E6253 /* TopScoreController.xib */; };
 		CAB858CD145D9835007F0E64 /* cell_left_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = CAB858CC145D981D007F0E64 /* cell_left_bg.png */; };
 		CABB72381462D4C4005A5F5B /* user_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CABB72371462D4C4005A5F5B /* user_bg@2x.png */; };
+		CABBC351147B90E700A5C452 /* ActionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CABBC350147B90E700A5C452 /* ActionHandler.m */; };
 		CABC3948141DEA50001B33D1 /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = CABC3946141DEA50001B33D1 /* button2.png */; };
 		CABC3949141DEA50001B33D1 /* button2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CABC3947141DEA50001B33D1 /* button2@2x.png */; };
 		CABC831C142B828C008037A0 /* CategoryService.m in Sources */ = {isa = PBXBuildFile; fileRef = CABC831B142B828C008037A0 /* CategoryService.m */; };
@@ -642,7 +642,6 @@
 		CA4E058C147A2D3D007728DB /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequest.h; sourceTree = "<group>"; };
 		CA4E058D147A2D3D007728DB /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GADRequestError.h; sourceTree = "<group>"; };
 		CA4E058E147A2D3D007728DB /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAdMobAds.a; sourceTree = "<group>"; };
-		CA4E058F147A2D3D007728DB /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
 		CA4E0592147A2D4E007728DB /* AdViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdViewUtils.h; sourceTree = "<group>"; };
 		CA4E0593147A2D4E007728DB /* AdViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdViewUtils.m; sourceTree = "<group>"; };
 		CA4E05C9147B5353007728DB /* AdProductTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdProductTextCell.h; sourceTree = "<group>"; };
@@ -1153,6 +1152,8 @@
 		CAB6A704141A6792007E6253 /* TopScoreController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopScoreController.xib; sourceTree = "<group>"; };
 		CAB858CC145D981D007F0E64 /* cell_left_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_left_bg.png; path = "png@2x/cell_left_bg.png"; sourceTree = "<group>"; };
 		CABB72371462D4C4005A5F5B /* user_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "user_bg@2x.png"; path = "png@2x/user_bg@2x.png"; sourceTree = "<group>"; };
+		CABBC34F147B90E700A5C452 /* ActionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionHandler.h; sourceTree = "<group>"; };
+		CABBC350147B90E700A5C452 /* ActionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionHandler.m; sourceTree = "<group>"; };
 		CABC3946141DEA50001B33D1 /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
 		CABC3947141DEA50001B33D1 /* button2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button2@2x.png"; sourceTree = "<group>"; };
 		CABC831A142B828C008037A0 /* CategoryService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryService.h; sourceTree = "<group>"; };
@@ -1660,7 +1661,6 @@
 				CA4E058C147A2D3D007728DB /* GADRequest.h */,
 				CA4E058D147A2D3D007728DB /* GADRequestError.h */,
 				CA4E058E147A2D3D007728DB /* libGoogleAdMobAds.a */,
-				CA4E058F147A2D3D007728DB /* README.txt */,
 			);
 			name = GoogleAdMobAdsSDK;
 			path = ../GoogleAdMobAdsSDK;
@@ -2566,6 +2566,15 @@
 			path = Password;
 			sourceTree = "<group>";
 		};
+		CABBC34E147B90C300A5C452 /* Action */ = {
+			isa = PBXGroup;
+			children = (
+				CABBC34F147B90E700A5C452 /* ActionHandler.h */,
+				CABBC350147B90E700A5C452 /* ActionHandler.m */,
+			);
+			path = Action;
+			sourceTree = "<group>";
+		};
 		CAD0480014622C2D0071F8B4 /* ShoppingItem */ = {
 			isa = PBXGroup;
 			children = (
@@ -2642,6 +2651,7 @@
 		CADF6B6C13DA9ACB0060F438 /* GroupBuyCommon */ = {
 			isa = PBXGroup;
 			children = (
+				CABBC34E147B90C300A5C452 /* Action */,
 				CA4E0587147A2D3D007728DB /* GoogleAdMobAdsSDK */,
 				CA3E546D13E530010013C33C /* Report */,
 				CA0AAEBB13E3BA830050F143 /* Resource */,
@@ -3326,7 +3336,6 @@
 				CAB17430146A177E00F0F248 /* tu_182@2x.png in Resources */,
 				CA11361C1473F0EE004D517E /* CustomSearchProductController.xib in Resources */,
 				CAAF0902147548EB00B0D916 /* TaobaoProductTextCell.xib in Resources */,
-				CA4E0591147A2D3D007728DB /* README.txt in Resources */,
 				CA4E05CD147B5353007728DB /* AdProductTextCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3657,6 +3666,7 @@
 				CAAF0901147548EB00B0D916 /* TaobaoProductTextCell.m in Sources */,
 				CA4E0594147A2D4E007728DB /* AdViewUtils.m in Sources */,
 				CA4E05CC147B5353007728DB /* AdProductTextCell.m in Sources */,
+				CABBC351147B90E700A5C452 /* ActionHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
