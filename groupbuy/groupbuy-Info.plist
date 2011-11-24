@@ -37,6 +37,8 @@
 	<true/>
 	<key>CFProductType</key>
 	<string>3</string>
+	<key>CFCanViewProductDetail</key>
+	<false/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
