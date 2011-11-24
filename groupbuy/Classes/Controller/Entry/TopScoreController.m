@@ -15,9 +15,9 @@
 
 enum TOP_SCORE_TYPE {
     TOP_0_10,
-    TOP_10,
-    TOP_END,
     TOP_NEW,
+    TOP_END,
+    TOP_10 = -1,  // disable TOP 10 here
 };
 
 @implementation TopScoreController
@@ -95,10 +95,10 @@ enum TOP_SCORE_TYPE {
     
     NSArray *titleArray = 
      [NSArray arrayWithObjects:
-      @"0－10元",
-      @"10元以上",
-      @"结束时间",
-      @"发布时间",
+      @"促销排名",
+//      @"10元以上",
+      @"发布日期",
+      @"结束日期",
       nil];  
         
     UIImage *bgImage = [[UIImage imageNamed:@"tu_46.png"] stretchableImageWithLeftCapWidth:0 topCapHeight:0];
